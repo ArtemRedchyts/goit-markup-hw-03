@@ -1,0 +1,51 @@
+:root {
+  --font-stack: 'Playfair Display', Arial, Helvetica, sans-serif;
+  --primary-color: #626262;
+}
+body,
+p,
+button {
+  font-family: var(--font-stack);
+  color: var(--primary-color);
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+}
+
+.site-navigation {
+  list-style: none;
+}
+
+.site-navigation .link {
+  font-family: var(--font-stack);
+  color: var(--primary-color);
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 24px;
+}
+
+.site-navigation .link:hover,
+.site-navigation .link:focus {
+  color: #03a9f4;
+}
+
+.content-list_name {
+  font-family: 'Ubuntu', Arial, Helvetica, sans-serif;
+  text-transform: uppercase;
+  color: #b4ad9e;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 1.2;
+}
+.content .content-list_heading {
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 1.2;
+}
+
+.download {
+  font-size: 20px;
+  line-height: 24px;
+  background-color: #ffffff;
+  cursor: pointer;
+}
